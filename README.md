@@ -1,6 +1,6 @@
 # Suicide Ideation Detection
 
-This project is to detect suicide ideation detection using ELECTRA model
+This project is to predict suicide ideation.
 
 ## Overview
 
