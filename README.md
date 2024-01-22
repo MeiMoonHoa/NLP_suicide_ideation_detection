@@ -11,6 +11,7 @@ This repository contains the files necessary for deploying a Flask application o
 Before you begin, ensure you have met the following requirements:
 * You have a PythonAnywhere account. (you might need a paid account if the basic package isn't sufficient.)
 * You have developed the model, and extracted them into pytorch_model.bin, config.json, special_tokens_map.json, tokenizer_config.json, tokenizer.json and vocab.json
+* For assets in used for this application were saved in https://drive.google.com/drive/folders/1thRiaOBBXFTYkpRX3NThmbuRUqyNTuT1?usp=sharing
 
 ## Files Description
 
