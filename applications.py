@@ -131,11 +131,25 @@ def update_output(n_clicks, text_input):
     except concurrent.futures.TimeoutError:
         return html.Div("Model inference timed out. Please try again.", style={'color': 'red'})
 
+    # Style the result display
+    result_style = {
+        'color': 'white',  # Text color set to white for contrast
+        'fontWeight': 'bold',
+        'fontSize': 20,
+        'border': '2px solid',
+        'borderColor': 'red' if prediction == 1 else 'green',
+        'padding': '10px',
+        'borderRadius': '5px',
+        'margin': '20px',
+        'textAlign': 'center',
+        'backgroundColor': '#D32F2F' if prediction == 1 else '#4CAF50'  # Red for related, green for not related
+    }
+
     # Display the result based on the prediction
     if prediction == 1:
-        return html.Div("The analysis indicates this text is related to suicide ideation.", style={'color': 'red'})
+        return html.Div("The analysis indicates this text is RELATED to suicide ideation.", style=result_style)
     else:
-        return html.Div("The analysis indicates this text is not related to suicide ideation.", style={'color': 'green'})
+        return html.Div("The analysis indicates this text is NOT RELATED to suicide ideation.", style=result_style)
 
 
 # Run the server
