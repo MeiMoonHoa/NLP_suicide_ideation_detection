@@ -1,10 +1,10 @@
-# Project Title
+# Suicide Ideation Detection
 
 This project is to detect suicide ideation detection using ELECTRA model
 
 ## Overview
 
-This repository contains the files necessary for deploying a Flask application on PythonAnywhere. The application is designed to detect suicide ideation.
+This repository contains the files necessary for deploying a Flask application on PythonAnywhere. The application is designed to detect suicide ideation. You may test the application on https://meimoonhoa.pythonanywhere.com/
 
 ## Prerequisites
 
