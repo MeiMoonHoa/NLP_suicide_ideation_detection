@@ -35,6 +35,6 @@ To deploy this project on PythonAnywhere, follow these steps:
 
 ## Contact
 
-Your Name - Hoa Mei Moon
+Name - Hoa Mei Moon
 
 Project Link: https://github.com/MeiMoonHoa/NLP_suicide_ideation_detection
