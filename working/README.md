@@ -24,7 +24,7 @@ This repository contains a series of Jupyter notebooks that demonstrate a comple
 
 ## Using WANDB
 
-We use Weights & Biases for experiment tracking. To use WANDB:
+Use Weights & Biases for experiment tracking. To use WANDB:
 
 1. Sign up for a free account at [WANDB](https://wandb.ai/).
 2. Install the WANDB package in your notebook: `!pip install wandb`.
